@@ -23,7 +23,7 @@ object Constants {
         "https://play.google.com/store/apps/details?id=themusicplayer.audioplayer.mp3player.retromusic"
     const val TRANSLATE = "http://monkeycodeapp.oneskyapp.com/collaboration/project?id=238534"
     const val GITHUB_PROJECT = "https://github.com/h4h13/RetroMusicPlayer"
-    const val TELEGRAM_CHANGE_LOG = "https://t.me/retromusiclog"
+    const val TELEGRAM_CHANGE_LOG = "https://t.me/joinchat/Qs_ckhngwLutEQZbtzixbw"
     const val USER_PROFILE = "profile.jpg"
     const val USER_BANNER = "banner.jpg"
     const val APP_INSTAGRAM_LINK = "https://www.instagram.com/retromusicapp/"
