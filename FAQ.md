@@ -1,6 +1,5 @@
 #### Q: How do I get the beta version of Retro Music?
-You can opt-in for the beta build by clicking on this link: https://play.google.com/apps/testing/code.name.monkey.retromusic
-
+You can opt-in for the beta build by clicking on this link: https://play.google.com/apps/testing/themusicplayer.audioplayer.mp3player.retromusic
 #### Q: How do I use offline synced lyrics?
 There are two methods for how to get offline synced lyrics.
 
