@@ -22,14 +22,14 @@ object Constants {
     const val RATE_ON_GOOGLE_PLAY =
         "https://play.google.com/store/apps/details?id=themusicplayer.audioplayer.mp3player.retromusic"
     const val TRANSLATE = "http://monkeycodeapp.oneskyapp.com/collaboration/project?id=238534"
-    const val GITHUB_PROJECT = "https://github.com/h4h13/RetroMusicPlayer"
+    const val GITHUB_PROJECT = "https://github.com/vikasmishara/music_player_retro"
     const val TELEGRAM_CHANGE_LOG = "https://t.me/joinchat/Qs_ckhngwLutEQZbtzixbw"
     const val USER_PROFILE = "profile.jpg"
     const val USER_BANNER = "banner.jpg"
-    const val APP_INSTAGRAM_LINK = "https://www.instagram.com/retromusicapp/"
-    const val APP_TELEGRAM_LINK = "https://t.me/retromusicapp/"
-    const val APP_TWITTER_LINK = "https://twitter.com/retromusicapp"
-    const val FAQ_LINK = "https://github.com/h4h13/RetroMusicPlayer/blob/master/FAQ.md"
+    const val APP_INSTAGRAM_LINK = "https://www.instagram.com/retromusicplayer/"
+    const val APP_TELEGRAM_LINK = "https://t.me/joinchat/Qs_ckhngwLutEQZbtzixbw"
+    const val APP_TWITTER_LINK = "https://twitter.com/GoldsMineApps"
+    const val FAQ_LINK = "https://github.com/vikasmishara/music_player_retro/blob/master/FAQ.md"
     const val PINTEREST = "https://in.pinterest.com/retromusicapp/"
 
     const val BASE_SELECTION =
