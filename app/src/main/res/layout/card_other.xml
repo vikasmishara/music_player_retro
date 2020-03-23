@@ -28,6 +28,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <themusicplayer.audioplayer.mp3player.retromusic.views.ListItemView
+            android:id="@+id/privacy_policy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sb4"
+            app:listItemSummary="@string/privacyPolicy_summary"
+            app:listItemTitle="@string/privacyPolicy" />
+
 
         <themusicplayer.audioplayer.mp3player.retromusic.views.ListItemView
             android:id="@+id/changelog"
@@ -37,7 +49,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/sb4"
+            app:layout_constraintTop_toBottomOf="@id/privacy_policy"
             app:listItemSummary="@string/changelog_summary"
             app:listItemTitle="@string/changelog" />
 

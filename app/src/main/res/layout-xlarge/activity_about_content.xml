@@ -14,10 +14,11 @@
         grid:layout_column="0"
         grid:layout_columnWeight="1"
         grid:layout_row="0">
-
         <include layout="@layout/card_credit" />
-
         <include layout="@layout/card_social" />
+
+
+
     </LinearLayout>
 
     <LinearLayout

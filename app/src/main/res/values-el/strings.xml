@@ -347,7 +347,7 @@
 
     <string name="restored_previous_purchases">Επαναφορά προηγούμενων αγορών επιτυχής.</string>
 
-    <string name="retro_equalizer">Retro Ισοσταθμιστής</string>
+    <string name="retro_equalizer">Ισοσταθμιστής</string>
 
     <string name="save_playlist_title">Αποθήκευσε ως αρχείο</string>
     <string name="saved_playlist_to">Η Playlist αποθηκεύτηκε στο %s.</string>

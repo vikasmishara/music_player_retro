@@ -82,10 +82,10 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
         }
         val blackTheme: ATESwitchPreference? = findPreference("black_theme")
         blackTheme?.setOnPreferenceChangeListener { _, _ ->
-            if (!App.isProVersion()) {
+           /* if (!App.isProVersion()) {
                 showProToastAndNavigate("Just Black theme")
                 return@setOnPreferenceChangeListener false
-            }
+            }*/
             ThemeStore.markChanged(requireContext())
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
                 requireActivity().setTheme(PreferenceUtil.getThemeResFromPrefValue("black"))

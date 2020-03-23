@@ -292,7 +292,7 @@
     <string name="restored_previous_purchase_please_restart">تم استرداد عملية الشراء السابقة. الرجاء اعادة تشغيل التطبيق الاستمتاع بكافة المميزات.</string>
     <string name="restored_previous_purchases">"تم "</string>
     <string name="restoring_purchase">استرداد عملية الشراء...</string>
-    <string name="retro_equalizer">معادل ريترو ميوزك</string>
+    <string name="retro_equalizer">معادل ميوزك</string>
     <!-- SAF -->
     <!-- SAF guide -->
     <string name="save_playlist_title">حفظ كملف</string>

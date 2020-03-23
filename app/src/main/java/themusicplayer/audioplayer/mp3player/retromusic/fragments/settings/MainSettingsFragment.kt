@@ -78,19 +78,19 @@ class MainSettingsFragment : Fragment(), View.OnClickListener {
         otherSettings.setOnClickListener(this)
         aboutSettings.setOnClickListener(this)
 
-        buyProContainer.apply {
+    /*    buyProContainer.apply {
             if (!App.isProVersion()) show() else hide()
             setOnClickListener {
                 NavigationUtil.goToProVersion(requireContext())
             }
-        }
-        buyPremium.setOnClickListener {
+        }*/
+    /*    buyPremium.setOnClickListener {
             NavigationUtil.goToProVersion(requireContext())
-        }
-        ThemeStore.accentColor(requireContext()).let {
+        }*/
+      /*  ThemeStore.accentColor(requireContext()).let {
             buyPremium.setTextColor(it)
             diamondIcon.imageTintList = ColorStateList.valueOf(it)
-        }
+        }*/
     }
 
     companion object {

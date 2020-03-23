@@ -87,13 +87,8 @@ class AlbumCoverStylePreferenceDialog : PreferenceDialogFragmentCompat(),
             cornerRadius(PreferenceUtil.getInstance(requireContext()).dialogCorner)
             positiveButton(R.string.set) {
                 val coverStyle = values()[viewPagerPosition]
-                if (isAlbumCoverStyle(coverStyle)) {
-                    val result = getString(coverStyle.titleRes) + " theme is Pro version feature."
-                    Toast.makeText(context, result, Toast.LENGTH_SHORT).show()
-                    NavigationUtil.goToProVersion(requireActivity())
-                } else {
                     PreferenceUtil.getInstance(requireContext()).albumCoverStyle = coverStyle
-                }
+
 
             }
             negativeButton(android.R.string.cancel)
@@ -130,11 +125,9 @@ class AlbumCoverStylePreferenceDialog : PreferenceDialogFragmentCompat(),
             val proText = layout.findViewById<TextView>(R.id.proText)
             Glide.with(context).load(albumCoverStyle.drawableResId).into(image)
             title.setText(albumCoverStyle.titleRes)
-            if (isAlbumCoverStyle(albumCoverStyle)) {
-                proText.setText(R.string.pro)
-            } else {
+
                 proText.setText(R.string.free)
-            }
+
             return layout
         }
 
@@ -173,5 +166,5 @@ class AlbumCoverStylePreferenceDialog : PreferenceDialogFragmentCompat(),
 }
 
 private fun isAlbumCoverStyle(style: AlbumCoverStyle): Boolean {
-    return (!App.isProVersion() && (style == CIRCLE || style == CARD || style == FULL_CARD))
+    return ((style == CIRCLE || style == CARD || style == FULL_CARD))
 }

@@ -31,6 +31,7 @@ object Constants {
     const val APP_TWITTER_LINK = "https://twitter.com/GoldsMineApps"
     const val FAQ_LINK = "https://github.com/vikasmishara/music_player_retro/blob/master/FAQ.md"
     const val PINTEREST = "https://in.pinterest.com/retromusicapp/"
+    const val PRIVACY_POLICY = "https://in.pinterest.com/retromusicapp/"
 
     const val BASE_SELECTION =
         MediaStore.Audio.AudioColumns.IS_MUSIC + "=1" + " AND " + MediaStore.Audio.AudioColumns.TITLE + " != ''"

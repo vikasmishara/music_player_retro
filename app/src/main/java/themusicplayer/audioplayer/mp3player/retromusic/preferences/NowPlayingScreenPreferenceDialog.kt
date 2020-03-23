@@ -97,14 +97,7 @@ class NowPlayingScreenPreferenceDialog : PreferenceDialogFragmentCompat(),
             title(R.string.pref_title_now_playing_screen_appearance)
             positiveButton(R.string.set) {
                 val nowPlayingScreen = values()[viewPagerPosition]
-                if (isNowPlayingThemes(nowPlayingScreen)) {
-                    val result =
-                        getString(nowPlayingScreen.titleRes) + " theme is Pro version feature."
-                    Toast.makeText(context, result, Toast.LENGTH_SHORT).show()
-                    NavigationUtil.goToProVersion(requireContext())
-                } else {
                     PreferenceUtil.getInstance(requireContext()).nowPlayingScreen = nowPlayingScreen
-                }
             }
             cornerRadius(PreferenceUtil.getInstance(requireContext()).dialogCorner)
             negativeButton(android.R.string.cancel)
@@ -141,11 +134,7 @@ private class NowPlayingScreenAdapter(private val context: Context) : PagerAdapt
         val proText = layout.findViewById<TextView>(R.id.proText)
         Glide.with(context).load(nowPlayingScreen.drawableResId).into(image)
         title.setText(nowPlayingScreen.titleRes)
-        if (isNowPlayingThemes(nowPlayingScreen)) {
-            proText.setText(R.string.pro)
-        } else {
             proText.setText(R.string.free)
-        }
         return layout
     }
 

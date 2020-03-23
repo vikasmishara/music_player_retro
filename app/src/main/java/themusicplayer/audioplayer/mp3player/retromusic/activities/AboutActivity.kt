@@ -37,6 +37,7 @@ import kotlinx.android.synthetic.main.card_credit.*
 import kotlinx.android.synthetic.main.card_other.*
 import kotlinx.android.synthetic.main.card_retro_info.*
 import kotlinx.android.synthetic.main.card_social.*
+import themusicplayer.audioplayer.mp3player.retromusic.Constants.PRIVACY_POLICY
 import java.io.IOException
 import java.nio.charset.StandardCharsets
 
@@ -106,6 +107,8 @@ class AboutActivity : AbsBaseActivity(), View.OnClickListener {
         openSource.setOnClickListener(this)
         //pinterestLink.setOnClickListener(this)
        // bugReportLink.setOnClickListener(this)
+        privacy_policy.setOnClickListener(this)
+
     }
 
     override fun onClick(view: View) {
@@ -123,6 +126,7 @@ class AboutActivity : AbsBaseActivity(), View.OnClickListener {
             R.id.changelog -> showChangeLogOptions()
             R.id.openSource -> NavigationUtil.goToOpenSource(this)
             //R.id.bugReportLink -> NavigationUtil.bugReport(this)
+            R.id.privacy_policy ->openUrl(PRIVACY_POLICY)
         }
     }
 
